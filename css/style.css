@@ -94,9 +94,13 @@ nav ul>li{
 /* main */
 .hero-container{
     background-color: var(--color-bg-contrast);
+    height: 90vh;
 }
 .hero-left{
     width: 35%;
+}
+.hero-right{
+    width: 65%;
 }
 span.btn.hero{
     display: inline-block;
