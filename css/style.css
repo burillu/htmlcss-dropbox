@@ -1,3 +1,25 @@
-body{
-    background-color: aqua;
+:root {
+	--color-bg-contrast: #b4d0e7;
+	--color-designit: #a2d39b;
+	--color-text-alter: #61082b;
+	--color-btn: #0061ff;
+	--color-asu: #61082b;
+	--color-world-bycicle: #d5001f;
+	--color-hearst: #b4d0e7;
+	--color-florida: #0093ce;
+	--color-tops: #ff1c1c;
+	--color-lonley: #0d2481;
+	--color-clear: #ffd830;
+    --color-bg-body: #fff;
 }
+/* general */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--color-bg-body);
+}
+
