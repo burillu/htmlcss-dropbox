@@ -40,6 +40,9 @@ a{
     border:1px solid black;
     min-height: 20px;
 }
+.text-center{
+    text-align: center;
+}
 
 /* flex */
 
@@ -53,9 +56,18 @@ a{
     align-items: center;
     align-content: center;
 }
+/* bottoni */
 
+.btn{
+    padding: 10px 15px;
+}
+.btn-blue{
+    background-color: var(--color-btn);
+    color: var(--color-bg-body);
+}
 
 /* header */
+
 .logo-container{
     padding: 10px;
 }
@@ -64,7 +76,8 @@ a{
 }
 nav.d-flex{
     height: 70px;
+    padding: 5px;
 }
 nav ul>li{
-    padding: 15px;
+    padding: 10px;
 }
