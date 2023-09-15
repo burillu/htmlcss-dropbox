@@ -39,6 +39,10 @@ h1{
     width: 80%;
     padding: 50px 0;
 }
+h2{
+    font-size: 2.5em;
+    padding: 25px 0;
+}
 
 /* utiliy */
 
@@ -69,10 +73,15 @@ h1{
 
 .btn{
     padding: 10px 15px;
+    cursor: pointer;
 }
 .btn-blue{
     background-color: var(--color-btn);
     color: var(--color-bg-body);
+}
+.btn-optional{
+    width: 80%;
+    margin: 0 auto;
 }
 
 /* header */
@@ -111,4 +120,42 @@ div.hero{
 }
 .icon.hero{
     font-size: 2em;
+}
+.small-container{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 90px;
+}
+form{
+    padding: 20px 0;
+}
+form :nth-child(3){
+    margin-left: 40px;
+}
+.container-optional{
+    width:calc(100% / 3);
+    padding: 10px;
+}
+.top-content{
+    border-bottom: 1px solid gray;
+    padding: 5px;
+}
+.title-optional{
+    font-size: 2em;
+    padding: 20px;
+}
+.price-optional{
+    font-weight: bold;
+    padding: 0 20px 20px;
+}
+.plan-option{
+    font-weight: 100;
+    padding: 20px;
+}
+.list-option{
+    margin: 20px 0;
+    padding: 10px;
+}
+.list-option *{
+    padding:8px 0;
 }
