@@ -49,10 +49,10 @@ h2{
 .img-fluid{
     width: 100%;
 }
-.debug{
+/* .debug{
     border:1px solid black;
     min-height: 20px;
-}
+} */
 .text-center{
     text-align: center;
 }
@@ -127,14 +127,17 @@ div.hero{
     padding-top: 90px;
 }
 form{
-    padding: 20px 0;
+    padding: 40px 0;
 }
 form :nth-child(3){
     margin-left: 40px;
 }
 .container-optional{
     width:calc(100% / 3);
-    padding: 10px;
+    padding: 25px;
+}
+.content-option{
+    border: 1px solid gray;
 }
 .top-content{
     border-bottom: 1px solid gray;
