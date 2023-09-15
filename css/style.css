@@ -29,7 +29,16 @@ a{
     text-decoration: none;
     color: inherit;
 }
-
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 4em;
+    font-weight: 900;
+    width: 80%;
+    padding: 50px 0;
+}
 
 /* utiliy */
 
@@ -80,4 +89,22 @@ nav.d-flex{
 }
 nav ul>li{
     padding: 10px;
+}
+
+/* main */
+.hero-container{
+    background-color: var(--color-bg-contrast);
+}
+.hero-left{
+    width: 35%;
+}
+span.btn.hero{
+    display: inline-block;
+    margin: 25px 0;
+}
+div.hero{
+    margin-bottom: 25px;
+}
+.icon.hero{
+    font-size: 2em;
 }
