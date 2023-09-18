@@ -50,10 +50,11 @@ h2{
 .img-fluid{
     width: 100%;
 }
-/* .debug{
+.debug{
     border:1px solid black;
     min-height: 20px;
-} */
+    min-width: 80px
+}
 .text-center{
     text-align: center;
 }
@@ -225,6 +226,9 @@ form :nth-child(3){
     text-decoration: underline;
     color: var(--color-btn);
 }
-
+.brand-container{
+    width: calc(100vw / 3);
+    height: calc(100vw / 3 );
+}
 
 
