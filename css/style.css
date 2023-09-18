@@ -44,6 +44,9 @@ h2{
     font-size: 2.5em;
     padding: 25px 0;
 }
+.text-alternative{
+    color: var(--color-bg-body);
+}
 
 /* utiliy */
 
@@ -230,5 +233,24 @@ form :nth-child(3){
     width: calc(100vw / 3);
     height: calc(100vw / 3 );
 }
-
+.brand-content{
+    width: 50%;
+    height: 50%;
+    padding: 60px;
+}
+.brand-content.designit{
+    background-color: var(--color-designit);
+}
+.brand-content.asu{
+    background-color: var(--color-asu);
+}
+.brand-content>img{
+    fill: currentColor !important;
+}
+.brand-content.uflorida{
+    background-color: var(--color-florida);
+}
+.brand-content.topps{
+    background-color: var(--color-tops);
+}
 
