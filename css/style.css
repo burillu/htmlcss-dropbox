@@ -218,6 +218,13 @@ form :nth-child(3){
     width: 30%;
     padding: 20px 0;
 }
+.title-section{
+    width: 70%;
+}
+.a-underline{
+    text-decoration: underline;
+    color: var(--color-btn);
+}
 
 
 
