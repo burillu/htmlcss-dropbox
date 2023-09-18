@@ -180,6 +180,9 @@ form :nth-child(3){
 .border-gray{
     border: 1px solid gray;
 }
+.bottom-gray{
+    border-bottom: 1px solid gray;
+}
 .top-content{
     border-bottom: 1px solid gray;
     padding: 5px;
@@ -233,6 +236,9 @@ form :nth-child(3){
     width: calc(100vw / 3);
     height: calc(100vw / 3 );
 }
+.brand-center{
+    width: 30vw;
+}
 .brand-content{
     width: 50%;
     height: 50%;
@@ -264,4 +270,11 @@ form :nth-child(3){
 }
 .brand-content.clear-channel{
     background-color: var(--color-clear);
+}
+.width-middle{
+    width: 60%;
+    padding: 30px 0;
+}
+.width-decim{
+    width: 20%;
 }
