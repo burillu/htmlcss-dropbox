@@ -161,6 +161,9 @@ div.hero{
 .small-container{
     width: 1000px;
     margin: 0 auto;
+
+}
+.hero .small-container{
     padding-top: 90px;
 }
 
@@ -208,7 +211,7 @@ form :nth-child(3){
     text-indent: -0.5em;
     margin: 0 20px;
 }
-.enterprise-left{
+.flexed-left{
     width: 70%;
 }
 .contact-left{
@@ -221,7 +224,7 @@ form :nth-child(3){
 .title-contact{
     font-size: 1.6em;
 }
-.enterprise-right{
+.flexed-right{
     width: 30%;
     padding: 20px 0;
 }
@@ -277,4 +280,12 @@ form :nth-child(3){
 }
 .width-decim{
     width: 20%;
+}
+.call-toaction{
+    background-color: var(--color-bg-contrast);
+    color: var(--color-text-alter);
+    padding: 50px 0;
+}
+.call-toaction h2{
+    width: 50%;
 }
