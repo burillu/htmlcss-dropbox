@@ -79,6 +79,9 @@ h2{
     align-items: center;
     align-content: center;
 }
+.flex-wrap{
+    flex-wrap: wrap;
+}
 /* bottoni */
 
 .btn{
@@ -168,15 +171,17 @@ form :nth-child(3){
     padding: 25px;
 }
 .content-option{
-    border: 1px solid gray;
     width: 30%;
+}
+.border-gray{
+    border: 1px solid gray;
 }
 .top-content{
     border-bottom: 1px solid gray;
     padding: 5px;
 }
 .title-optional{
-    font-size: 2em;
+    font-size: 1.6em;
     padding: 20px;
 }
 .price-optional{
@@ -210,7 +215,7 @@ form :nth-child(3){
     padding: 30px 20px;
 }
 .title-contact{
-    font-size: 2em;
+    font-size: 1.6em;
 }
 .enterprise-right{
     width: 30%;
