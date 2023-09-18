@@ -84,7 +84,7 @@ h2{
 .btn{
     padding: 10px 15px;
     cursor: pointer;
-    display: inline-block;
+    display: block;
 }
 .btn-blue{
     background-color: var(--color-btn);
@@ -203,13 +203,19 @@ form :nth-child(3){
     width: 70%;
 }
 .contact-left{
-    width: 60%;
+    width: 70%;
 }
 .contact-right{
-    width:40%;
+    width:30%;
     padding: 30px 20px;
 }
 .title-contact{
     font-size: 2em;
 }
+.enterprise-right{
+    width: 30%;
+    padding: 20px 0;
+}
+
+
 
