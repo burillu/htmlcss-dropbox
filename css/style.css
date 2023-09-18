@@ -53,11 +53,11 @@ h2{
 .img-fluid{
     width: 100%;
 }
-.debug{
+/* .debug{
     border:1px solid black;
     min-height: 20px;
     min-width: 80px
-}
+} */
 .text-center{
     text-align: center;
 }
@@ -320,4 +320,12 @@ footer{
 }
 .footer-content li{
     padding-bottom: 20px;
+}
+footer>.container>.bottom-gray{
+    width: 10%;
+}
+.lenguage-container{
+    color: gray;
+    padding: 50px 0 20px;
+    cursor: pointer;
 }
