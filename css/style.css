@@ -289,3 +289,18 @@ form :nth-child(3){
 .call-toaction h2{
     width: 50%;
 }
+details{
+    width: 100%;
+}
+details>div{
+    padding: 20px;
+}
+summary {
+	background-color: #fff;
+	position: relative;
+	cursor: pointer;
+	padding: 2em .5em;
+	list-style: none; 
+	/* &::-webkit-details-marker{
+		display: none; */
+	} 
