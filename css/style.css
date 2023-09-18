@@ -11,6 +11,7 @@
 	--color-lonley: #0d2481;
 	--color-clear: #ffd830;
     --color-bg-body: #fff;
+    --color-bg-footer: #000000;
 }
 /* general */
 *{
@@ -49,10 +50,10 @@ h2{
 .img-fluid{
     width: 100%;
 }
-/* .debug{
+.debug{
     border:1px solid black;
     min-height: 20px;
-} */
+}
 .text-center{
     text-align: center;
 }
@@ -61,6 +62,9 @@ h2{
 }
 .mb-30{
     margin-bottom: 30px;
+}
+.mb-50{
+    margin-bottom: 50px;
 }
 
 /* flex */
@@ -80,6 +84,7 @@ h2{
 .btn{
     padding: 10px 15px;
     cursor: pointer;
+    display: inline-block;
 }
 .btn-blue{
     background-color: var(--color-btn);
@@ -90,7 +95,11 @@ h2{
     width: 80%;
     margin: 0 auto;
 }
-
+.btn-white{
+    background-color: var(--color-bg-body);
+    color: var(--color-bg-footer);
+    border: 1px solid var(--color-bg-footer);
+}
 /* header */
 
 header{
@@ -193,3 +202,14 @@ form :nth-child(3){
 .enterprise-left{
     width: 70%;
 }
+.contact-left{
+    width: 60%;
+}
+.contact-right{
+    width:40%;
+    padding: 30px 20px;
+}
+.title-contact{
+    font-size: 2em;
+}
+
