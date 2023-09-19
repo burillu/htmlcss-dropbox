@@ -396,12 +396,16 @@ details>div{
 	padding: 2em .5em;
 	list-style: none; 
 } 
+.accordion{
+    height: 90px;
+    overflow: hidden;
+    transition: height 0.38s ease;
+}
 .hide-answer{
-    display: none;
     padding: 20px;
 }
-.summary:hover~.hide-answer{
-    display: block;
+.accordion:hover{
+    height: 200px;
 }
 /* footer */
 
