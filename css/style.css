@@ -114,10 +114,14 @@ h2{
     cursor: pointer;
     /* display: block; */
 }
+
 .btn-blue{
     background-color: var(--color-btn);
     border: 1px solid var(--color-btn);
     color: var(--color-bg-body);
+}
+.btn-blue:hover{
+    background-color:var(--color-lonley);
 }
 .btn-optional{
     width: 80%;
@@ -130,6 +134,10 @@ h2{
     border-right: 1px solid rgb(156, 156, 156);
     border-left: 1px solid var(--color-bg-footer);
     border-bottom: 1px solid var(--color-bg-footer);
+}
+.btn-white:hover{
+    background-color:var(--color-bg-footer);
+    color: var(--color-brand-center);
 }
 /* header */
 
