@@ -254,7 +254,7 @@ form :nth-child(3){
     background-color: var(--color-asu);
 }
 .brand-content>img{
-    fill: currentColor !important;
+    filter: invert();
 }
 .brand-content.uflorida{
     background-color: var(--color-florida);
