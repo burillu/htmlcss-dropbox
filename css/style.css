@@ -70,7 +70,21 @@ h2{
 .mb-50{
     margin-bottom: 50px;
 }
-
+.padding-lat20{
+    padding: 0 20px;
+}
+.padding-lat25{
+    padding: 0 25px;
+}
+.line-10{
+    width: 20%;
+}
+.col-blue{
+    color: var(--color-btn);
+}
+.bolder{
+    font-weight: bolder;
+}
 /* flex */
 
 .d-flex{
@@ -100,7 +114,7 @@ h2{
 }
 .btn-optional{
     width: 80%;
-    margin: 0 auto;
+    margin: 0 auto 30px;
 }
 .btn-white{
     background-color: var(--color-bg-body);
@@ -190,14 +204,18 @@ form :nth-child(3){
     border-bottom: 1px solid gray;
     padding: 5px;
 }
+.content-option .line-10{
+    margin: 0 25px 30px;
+}
 .title-optional{
     font-size: 1.6em;
     padding: 20px;
 }
 .price-optional{
     font-weight: bold;
-    padding: 0 20px 20px;
+    
 }
+
 .plan-option{
     font-weight: 100;
     padding: 20px;
@@ -211,6 +229,10 @@ form :nth-child(3){
     text-indent: -0.5em;
     margin: 0 20px;
 }
+/* .text-indentation{
+    text-indent: -0.5em;
+    margin: 0 20px;
+} */
 .flexed-left{
     width: 70%;
 }
