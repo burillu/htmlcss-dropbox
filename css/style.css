@@ -20,6 +20,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--color-bg-body);
@@ -72,7 +75,7 @@ h2{
     margin-bottom: 50px;
 }
 .mb-80{
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 .padding-lat20{
     padding: 0 20px;
@@ -187,7 +190,9 @@ div.hero{
 .hero .small-container{
     padding-top: 90px;
 }
-
+.business-plan{
+    padding-top: 80px;
+}
 form{
     padding: 40px 0;
 }
