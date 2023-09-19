@@ -34,6 +34,9 @@ a{
     text-decoration: none;
     color: inherit;
 }
+.a-underline:hover{
+    color: var(--color-lonley);
+}
 .container{
     max-width: 1200px;
     margin: 0 auto;
