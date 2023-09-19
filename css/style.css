@@ -181,11 +181,14 @@ nav .btn-container{
     background-color: var(--color-bg-body);
     position: absolute;
     top: 100%;
-    left: 0;
     padding: 10px;
+}
+.menu-hidden.why-left{
+    left: 0;
 }
 nav li:hover .menu-hidden{
     display:flex;
+
 }
 .menu-hidden.why{
     width: 30vw;
@@ -195,6 +198,9 @@ nav li:hover .menu-hidden{
 }
 .why>ul>li{
     padding: 20px 0;
+}
+.menu-hidden.why-right{
+    right: 0;
 }
 
 
