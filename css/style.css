@@ -70,6 +70,9 @@ h2{
 .mb-50{
     margin-bottom: 50px;
 }
+.mb-80{
+    margin-bottom: 80px;
+}
 .padding-lat20{
     padding: 0 20px;
 }
@@ -105,7 +108,7 @@ h2{
 .btn{
     padding: 10px 15px;
     cursor: pointer;
-    display: block;
+    /* display: block; */
 }
 .btn-blue{
     background-color: var(--color-btn);
@@ -119,7 +122,10 @@ h2{
 .btn-white{
     background-color: var(--color-bg-body);
     color: var(--color-bg-footer);
-    border: 1px solid var(--color-bg-footer);
+    border-top:1px solid rgb(156, 156, 156);
+    border-right: 1px solid rgb(156, 156, 156);
+    border-left: 1px solid var(--color-bg-footer);
+    border-bottom: 1px solid var(--color-bg-footer);
 }
 /* header */
 
@@ -237,10 +243,10 @@ form :nth-child(3){
     width: 70%;
 }
 .contact-left{
-    width: 70%;
+    width: 65%;
 }
 .contact-right{
-    width:30%;
+    width:35%;
     padding: 30px 20px;
 }
 .title-contact{
