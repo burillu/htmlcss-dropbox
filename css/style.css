@@ -53,11 +53,11 @@ h2{
 .img-fluid{
     width: 100%;
 }
-.debug{
+/* .debug{
     border:1px solid black;
     min-height: 20px;
     min-width: 80px
-}
+} */
 .text-center{
     text-align: center;
 }
@@ -268,12 +268,23 @@ form :nth-child(3){
     height: calc(100vw / 3 );
 }
 .brand-center{
-    width: 30vw;
+    width: 30vw; 
+    height: calc(100vw / 3);
+    overflow-y: auto;
 }
 .brand-content{
     width: 50%;
     height: 50%;
     padding: 60px;
+}
+.brand-content:hover img{
+    transform: scale(2);
+    /* background-color: var(--color-btn); */
+    /* filter: invert(80%); */
+    opacity: 80%;
+}
+.brand-content:hover{
+    border: 20px solid rgba(255, 253, 253, 0.5);
 }
 .brand-content.designit{
     background-color: var(--color-designit);
