@@ -389,15 +389,20 @@ details{
 details>div{
     padding: 20px;
 }
-summary {
+.summary {
 	background-color: #fff;
 	position: relative;
 	cursor: pointer;
 	padding: 2em .5em;
 	list-style: none; 
-	/* &::-webkit-details-marker{
-		display: none; */
 } 
+.hide-answer{
+    display: none;
+    padding: 20px;
+}
+.summary:hover~.hide-answer{
+    display: block;
+}
 /* footer */
 
 footer{
