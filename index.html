@@ -15,20 +15,29 @@
 <body>
     <header>
         <!-- nav-bar -->
-        <nav class="d-flex justify-between align-center debug">
+        <nav class="d-flex justify-between debug">
             <!-- div left -->
             <div class="d-flex">
-
+                <a href="#">
+                    <div class="logo-container">
+                        <img class="img-fluid" src="img/logo-small.png" alt="logo">
+                    </div>
+                </a>
                 <!-- lista di navigazione sinistra -->
-                <ul class="d-flex justify-between align-center">
-                    <li><a href="#">
-                            <div class="logo-container">
-                                <img class="img-fluid" src="img/logo-small.png" alt="logo">
-                            </div>
-                        </a>
-
+                <ul class="d-flex justify-between">
+                    <li>
+                        <a href="#">Perchè Dropbox</a>
+                        <div class="menu-hidden d-felx">
+                            <ul>
+                                <li>
+                                    <h3>Panoramica</h3>
+                                </li>
+                                <li><a href="#">Ispirati</a></li>
+                                <li><a href="#">Ispirati</a></li>
+                                <li><a href="#">Ispirati</a></li>
+                            </ul>
+                        </div>
                     </li>
-                    <li><a href="#">Perchè Dropbox</a></li>
                     <li><a href="#">Funzioni</a></li>
                     <li><a href="#">Piani e Prezzi</a></li>
                 </ul>
@@ -42,15 +51,12 @@
                     <li><a href="#">Supporto</a></li>
                     <li><a href="#">Contatta l'ufficio vendite</a></li>
                     <li><a href="#">Accedi</a></li>
-                    <li>
-                        <!-- bottone accedi -->
-                        <div class="btn btn-blue">
-                            <a href="#" role="button">Inizia</a>
-                        </div>
-                    </li>
+                    
                 </ul>
-
-
+                <!-- bottone accedi -->
+                <div class="btn-container">
+                    <a class="btn btn-blue" href="#" role="button">Inizia</a>
+                </div>
             </div>
         </nav>
 

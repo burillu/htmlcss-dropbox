@@ -154,17 +154,34 @@ header{
     z-index: 1000;
 }
 .logo-container{
-    padding: 10px;
+    padding: 0 10px;
 }
 .logo-container img{
     width: 120px;
+    padding: 20px 0;
 }
 nav.d-flex{
     height: 70px;
-    padding: 5px;
+
 }
 nav ul>li{
-    padding: 10px;
+    padding: 25px 10px;
+    height: 100%;
+}
+nav ul>li:hover{
+    background-color: #EEE9E2;
+}
+nav .btn-container{
+    padding: 25px 10px;
+}
+.menu-hidden{
+    display: none;
+    position: relative;
+    top: 100%;
+    left: 0;
+}
+nav li:hover .menu-hidden{
+    display:block
 }
 
 /* main */
