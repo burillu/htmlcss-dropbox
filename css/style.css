@@ -214,13 +214,16 @@ nav li:hover .menu-hidden{
     
 }
 .hero-download{
-    background-color: #EEE9E2;
+    background-color: #F7F5F2;
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 70px);
     margin-top: 70px;
 }
 .half-cont{
     width: 50%;
+}
+.bg-schifo{
+    background-color: #BE4B0A;
 }
 .hero-container .container{
     position:relative;
