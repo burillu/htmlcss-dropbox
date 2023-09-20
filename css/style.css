@@ -65,6 +65,23 @@ h2{
     min-height: 20px;
     min-width: 80px
 }
+.width100{
+    width: 100%;
+}
+.width60{
+    width: 60%;
+
+}
+.width50{
+    width: 50%;
+}
+.width40{
+    width: 40%;
+
+}
+.width20{
+    width: 20%;
+}
 .text-center{
     text-align: center;
 }
@@ -85,6 +102,9 @@ h2{
 }
 .padding-lat25{
     padding: 0 25px;
+}
+.padding-updwn25{
+    padding: 30px 0;
 }
 .line-10{
     width: 20%;
@@ -112,6 +132,9 @@ h2{
 }
 .flex-wrap{
     flex-wrap: wrap;
+}
+.justify-around{
+    justify-content: space-around;
 }
 /* bottoni */
 
@@ -225,6 +248,12 @@ nav li:hover .menu-hidden{
 .bg-schifo{
     background-color: #BE4B0A;
 }
+.bg-dark{
+    background-color: var(--color-bg-footer);
+}
+.bg-darkgrey{
+    background-color: #2B2929 ;
+}
 .hero-container .container{
     position:relative;
     bottom: -70px;
@@ -311,6 +340,10 @@ form :nth-child(3){
 .flexed-left{
     width: 70%;
 }
+.flexed-right{
+    width: 30%;
+    padding: 20px 0;
+}
 .contact-left{
     width: 65%;
 }
@@ -321,10 +354,7 @@ form :nth-child(3){
 .title-contact{
     font-size: 1.6em;
 }
-.flexed-right{
-    width: 30%;
-    padding: 20px 0;
-}
+
 .title-section{
     width: 70%;
 }
